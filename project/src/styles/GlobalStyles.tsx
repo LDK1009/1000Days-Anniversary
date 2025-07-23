@@ -17,6 +17,20 @@ const GlobalStyles = () => {
           font-display: swap;
         }
 
+        @font-face {
+          font-family: "Ownglyph_ParkDaHyun";
+          src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2") format("woff2");
+          font-weight: normal;
+          font-style: normal;
+        }
+
+        @font-face {
+          font-family: "Ownglyph_corncorn-Rg";
+          src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2412-1@1.0/Ownglyph_corncorn-Rg.woff2") format("woff2");
+          font-weight: normal;
+          font-style: normal;
+        }
+
         /* 리셋 스타일 */
         * {
           margin: 0;

@@ -64,11 +64,70 @@ declare module "@mui/material/styles" {
 
 // 서비스에 어울리는 색상 팔레트
 export const muiTheme = createTheme({
+  typography: {
+    fontFamily: [
+      '"Ownglyph_corncorn-Rg"',
+      '"Ownglyph_ParkDaHyun"',
+      '"Pretendard-Regular"',
+      '"Malgun Gothic"',
+      '"Apple SD Gothic Neo"',
+      "sans-serif",
+    ].join(","),
+    // 폰트 사이즈별 설정
+    h1: {
+      fontFamily: '"Ownglyph_corncorn-Rg", "Ownglyph_ParkDaHyun", "Pretendard-Regular", sans-serif',
+      fontSize: "2.5rem",
+      fontWeight: "bold",
+    },
+    h2: {
+      fontFamily: '"Ownglyph_corncorn-Rg", "Ownglyph_ParkDaHyun", "Pretendard-Regular", sans-serif',
+      fontSize: "2rem",
+      fontWeight: "bold",
+    },
+    h3: {
+      fontFamily: '"Ownglyph_corncorn-Rg", "Ownglyph_ParkDaHyun", "Pretendard-Regular", sans-serif',
+      fontSize: "1.75rem",
+      fontWeight: "bold",
+    },
+    h4: {
+      fontFamily: '"Ownglyph_corncorn-Rg", "Ownglyph_ParkDaHyun", "Pretendard-Regular", sans-serif',
+      fontSize: "1.5rem",
+      fontWeight: 600,
+    },
+    h5: {
+      fontFamily: '"Ownglyph_corncorn-Rg", "Ownglyph_ParkDaHyun", "Pretendard-Regular", sans-serif',
+      fontSize: "1.25rem",
+      fontWeight: 600,
+    },
+    h6: {
+      fontFamily: '"Ownglyph_corncorn-Rg", "Ownglyph_ParkDaHyun", "Pretendard-Regular", sans-serif',
+      fontSize: "1rem",
+      fontWeight: 600,
+    },
+    body1: {
+      fontFamily: '"Ownglyph_corncorn-Rg", "Ownglyph_ParkDaHyun", "Pretendard-Regular", sans-serif',
+      fontSize: "1rem",
+      lineHeight: 1.6,
+    },
+    body2: {
+      fontFamily: '"Ownglyph_corncorn-Rg", "Ownglyph_ParkDaHyun", "Pretendard-Regular", sans-serif',
+      fontSize: "0.875rem",
+      lineHeight: 1.5,
+    },
+    button: {
+      fontFamily: '"Ownglyph_corncorn-Rg", "Ownglyph_ParkDaHyun", "Pretendard-Regular", sans-serif',
+      fontWeight: 500,
+    },
+    caption: {
+      fontFamily: '"Ownglyph_corncorn-Rg", "Ownglyph_ParkDaHyun", "Pretendard-Regular", sans-serif',
+      fontSize: "0.75rem",
+    },
+  },
   palette: {
     primary: {
-      dark: "#222222",
-      main: "#444444",
-      light: "#666666",
+      dark: "#E8879F",
+      main: "#FFB6B9",
+      light: "#FFC5C7",
       contrastText: "#FFFFFF",
     },
 

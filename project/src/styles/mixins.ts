@@ -202,3 +202,11 @@ export const mixinMuiCircleShapeButton = (size: number = 32) => css`
   min-width: ${size}px;
   min-height: ${size}px;
 `;
+
+// 스크롤 스냅 컨테이너 믹스인
+export const mixinSectionContainer = () => css`
+  scroll-snap-align: start; /* 각 스크롤 섹션이 스냅될 때 시작 지점에서 정렬되도록 설정 */
+  ${mixinFlex("column", "center", "center")}
+  width: 100vw;
+  height: 100vh !important;
+`;
