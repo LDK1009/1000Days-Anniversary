@@ -1,4 +1,4 @@
-import { mixinFlex, mixinMuiButtonNoShadow } from "@/styles/mixins";
+import { mixinMuiButtonNoShadow } from "@/styles/mixins";
 import { Button, styled } from "@mui/material";
 import React from "react";
 import Section from "@/components/common/Section";

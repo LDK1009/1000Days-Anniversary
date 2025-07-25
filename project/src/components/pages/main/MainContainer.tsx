@@ -11,27 +11,11 @@ const MainContainer = () => {
   return (
     <Container>
       <TextConfetti
-        particle={{ text: "❤", size: [10, 10], speed: [100, 200] }}
+        particle={{ text: "❤", size: [5, 10], speed: [0, 100] }}
         emitters={[
           {
-            direction: "top-right",
-            position: "bottom-left",
-            repeatCount: 1,
-            duration: 1,
-            delay: 0,
-            particleQuantity: 5,
-          },
-          {
-            direction: "top-left",
-            position: "bottom-right",
-            repeatCount: 1,
-            duration: 1,
-            delay: 0,
-            particleQuantity: 5,
-          },
-          {
-            direction: "top",
-            position: "bottom",
+            position: "top",
+            direction: "bottom",
             repeatCount: 1,
             duration: 1,
             delay: 0,
