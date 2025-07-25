@@ -10,13 +10,18 @@ const Title = () => {
   const dayItemVariants = {
     initial: { y: 0, rotate: 0 },
     animate: { y: [0, -8, 0], rotate: [0, 16, 0] },
-    transition: (index: number) => ({ duration: 0.5, delay: 0.5 * index, repeat: Infinity, repeatDelay: 0.5 * days.length }),
+    transition: (index: number) => ({
+      duration: 0.5,
+      delay: 0.5 * index,
+      repeat: Infinity,
+      repeatDelay: 0.5 * days.length,
+    }),
   };
 
   const heartIconVariants = {
     initial: { opacity: 0, y: 0, rotate: 0 },
-    animate: { opacity: [0, 1], x: [0, 2, 0, -2, 0], y: [0, -24], rotate: [0, 8, 0, -8, 0, 16, -16, 0] },
-    transition: { duration: 0.5, delay: 0.5 * days.length, repeat: Infinity, repeatDelay: 0.5 * days.length },
+    animate: { opacity: [0, 1], y: [0, -4] },
+    transition: { duration: 0.5, delay: 0.5 * days.length },
   };
 
   return (
