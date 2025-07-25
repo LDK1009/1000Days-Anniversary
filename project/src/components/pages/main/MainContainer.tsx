@@ -3,9 +3,10 @@
 import { Box, styled } from "@mui/material";
 import React from "react";
 import Section1 from "./section/1/Section1";
-import Section2 from "./section/2/Section2";
+import Section3 from "./section/3/Section3";
 import { mixinHideScrollbar } from "@/styles/mixins";
 import TextConfetti from "@/components/common/TextConfetti";
+import Section2 from "./section/2/Section2";
 
 const MainContainer = () => {
   return (
@@ -25,6 +26,7 @@ const MainContainer = () => {
       />
       <Section1 />
       <Section2 />
+      <Section3 />
     </Container>
   );
 };
