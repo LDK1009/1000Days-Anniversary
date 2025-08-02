@@ -1,0 +1,81 @@
+import { PhotoInfoType } from "@/types/photo";
+
+export const jungleMediaPhotos: PhotoInfoType[] = [
+  {
+    src: "/img/jungle-media/01.jpg",
+    date: "2023.11.10",
+    location: "경주시/보문로",
+    title: "정글 미디어파크 입장!",
+    content: "완전 귀여운 정글 지도!",
+  },
+  {
+    src: "/img/jungle-media/02.jpg",
+    date: "2023.11.10",
+    location: "경주시/보문로",
+    title: "그림자샷!",
+    content: "우린 그림자만 보이면 사진 찍어 ㅎㅋㅎㅋㅎ",
+  },
+  {
+    src: "/img/jungle-media/03.jpg",
+    date: "2023.11.10",
+    location: "경주시/보문로",
+    title: "크왕",
+    content: "흑표범이당!",
+  },
+  {
+    src: "/img/jungle-media/04.jpg",
+    date: "2023.11.10",
+    location: "경주시/보문로",
+    title: "크왕",
+    content: "치코리타다!",
+  },
+  {
+    src: "/img/jungle-media/05.jpg",
+    date: "2023.11.10",
+    location: "경주시/보문로",
+    title: "커플 셀카!",
+    content: "어두워서 약간 뱀파이어 같당!",
+  },
+  {
+    src: "/img/jungle-media/06.jpg",
+    date: "2023.11.10",
+    location: "경주시/보문로",
+    title: "파도의 방!",
+    content: "완전 영상미 대박이었찌",
+  },
+  {
+    src: "/img/jungle-media/07.jpg",
+    date: "2023.11.10",
+    location: "경주시/보문로",
+    title: "찰칵!",
+    content: "미디어 정글 풀숲에서 한장 ㅎ.ㅎ",
+  },
+  {
+    src: "/img/jungle-media/08.jpg",
+    date: "2023.11.10",
+    location: "경주시/보문로",
+    title: "러브 인 더 문",
+    content: "민주를 사랑함미다",
+  },
+  {
+    src: "/img/jungle-media/09.jpg",
+    date: "2023.11.10",
+    location: "경주시/보문로",
+    title: "사랑비!",
+    content: "이런 포즈 자주하는데 무슨 뜻인지는 하나도 몰랑 ㅎㅋㅎㅋㅋㅎ",
+  },
+  {
+    src: "/img/jungle-media/10.jpg",
+    date: "2023.11.10",
+    location: "경주시/보문로",
+    title: "곰 아죠씨",
+    content: "모해용? 저 놀아줘용",
+  },
+  {
+    src: "/img/jungle-media/11.jpg",
+    date: "2023.11.10",
+    location: "경주시/보문로",
+    title: "피크닉",
+    content: "피크닉 컨셉으로도 한장 :) ",
+  },
+];
