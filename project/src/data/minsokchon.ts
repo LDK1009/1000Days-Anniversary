@@ -1,0 +1,81 @@
+import { PhotoInfoType } from "@/types/photo";
+
+export const minsokchonPhotos: PhotoInfoType[] = [
+  {
+    src: "/img/minsokchon/01.jpg",
+    date: "2024.04.27",
+    location: "용인시/기흥구",
+    title: "엽전 획득!",
+    content: "민속촌 화폐인 엽전으로 환전 완료!",
+  },
+  {
+    src: "/img/minsokchon/02.jpg",
+    date: "2024.04.27",
+    location: "용인시/기흥구",
+    title: "그림자다!",
+    content: "바로 그림자 하트샷 :)",
+  },
+  {
+    src: "/img/minsokchon/03.jpg",
+    date: "2024.04.27",
+    location: "용인시/기흥구",
+    title: "공중 엽전 찍기 실패!",
+    content: "결국 그냥 들고 찍고 AI로 지워버리기 ㅎㅎ",
+  },
+  {
+    src: "/img/minsokchon/04.jpg",
+    date: "2024.04.27",
+    location: "용인시/기흥구",
+    title: "4월은 덥다",
+    content: "잠시 팔을 벌리는 포즈로 땀을..!",
+  },
+  {
+    src: "/img/minsokchon/05.jpg",
+    date: "2024.04.27",
+    location: "용인시/기흥구",
+    title: "묻지마 절구남",
+    content: "먹을 거 안주면 때려요",
+  },
+  {
+    src: "/img/minsokchon/06.jpg",
+    date: "2024.04.27",
+    location: "용인시/기흥구",
+    title: "꽃 발견!",
+    content: "나만의 꽃도 심어주고 와따",
+  },
+  {
+    src: "/img/minsokchon/07.jpg",
+    date: "2024.04.27",
+    location: "용인시/기흥구",
+    title: "찰칵!",
+    content: "결국 떼써서 음료 게또 ㅎㅎ",
+  },
+  {
+    src: "/img/minsokchon/08.jpg",
+    date: "2024.04.27",
+    location: "용인시/기흥구",
+    title: "두피 마사지",
+    content: "더워하는 나를 위한 특별 두피 마사지!",
+  },
+  {
+    src: "/img/minsokchon/09.jpg",
+    date: "2024.04.27",
+    location: "용인시/기흥구",
+    title: "완전 공주님!",
+    content: "웃는 모습이 참 예쁜 나만의 공쥬님 :)",
+  },
+  {
+    src: "/img/minsokchon/10.jpg",
+    date: "2024.04.27",
+    location: "용인시/기흥구",
+    title: "견우와 직녀",
+    content: "완전 드라마 한 장면이잖아 ㅠㅠ",
+  },
+  {
+    src: "/img/minsokchon/11.jpg",
+    date: "2024.04.27",
+    location: "용인시/기흥구",
+    title: "해피엔딩",
+    content: "결국 견우와 직녀는 해피해피한 결말로 끝났다는 사실!",
+  },
+];
