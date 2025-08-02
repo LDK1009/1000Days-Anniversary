@@ -22,8 +22,12 @@ const PhotoCard = ({ photoInfo }: PropsType) => {
     <Container>
       <Wrapper1>
         <Header>
-          <Typography variant="caption">{photoInfo.date}</Typography>
-          <Typography variant="caption">{photoInfo.location}</Typography>
+          <Typography variant="caption" color="text.secondary">
+            {photoInfo.date}
+          </Typography>
+          <Typography variant="caption" color="text.secondary">
+            {photoInfo.location}
+          </Typography>
         </Header>
         <PhotoImage src={photoInfo.src} alt="photo" />
       </Wrapper1>
@@ -86,9 +90,11 @@ const PhotoImage = styled("img")`
 const Title = styled(Typography)`
   ${mixinFlex("row", "center", "center")}
   width: 100%;
+  color: ${({ theme }) => theme.palette.primary.dark};
 `;
 
 const Content = styled(Typography)`
   ${mixinFlex("column", "center", "center")}
   width: 100%;
+  color: ${({ theme }) => theme.palette.primary.main};
 `;
