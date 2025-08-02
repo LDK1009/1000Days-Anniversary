@@ -1,0 +1,88 @@
+import { PhotoInfoType } from "@/types/photo";
+
+export const zolupPhotos: PhotoInfoType[] = [
+  {
+    src: "/img/zolup/01.jpg",
+    date: "2024.02.21",
+    location: "아산시/신창면",
+    title: "과자집",
+    content: "민주에게 선물로 줄 과자집 완성!! (하지만 거의 다 버렸찌 ㅜ)",
+  },
+  {
+    src: "/img/zolup/02.jpg",
+    date: "2024.02.21",
+    location: "아산시/신창면",
+    title: "민주 졸업!",
+    content: "울 아가 완전 고생많았당! 학교 탈출이다!",
+  },
+  {
+    src: "/img/zolup/03.jpg",
+    date: "2024.02.21",
+    location: "아산시/신창면",
+    title: "의생공 민주 찰칵!",
+    content: "학과 졸업식에서도 한장!",
+  },
+  {
+    src: "/img/zolup/04.jpg",
+    date: "2024.02.21",
+    location: "아산시/신창면",
+    title: "딴짓 포착",
+    content: "졸업식 중 딴짓하는 민주 도촬!",
+  },
+  {
+    src: "/img/zolup/05.jpg",
+    date: "2024.02.21",
+    location: "아산시/신창면",
+    title: "졸업 축하하와용",
+    content: "졸업장 받으러간 민주 :)",
+  },
+  {
+    src: "/img/zolup/06.jpg",
+    date: "2024.02.21",
+    location: "아산시/신창면",
+    title: "의료대 찰칵!",
+    content: "사람이 많아서 아쉽지만 민주 밖에 안보여 :)",
+  },
+  {
+    src: "/img/zolup/07.jpg",
+    date: "2024.02.21",
+    location: "아산시/신창면",
+    title: "의료대 찰칵2!",
+    content: "사람을 피해 계단 밑으로 내려왔당 ㅎㅋㅎ",
+  },
+  {
+    src: "/img/zolup/08.jpg",
+    date: "2024.02.21",
+    location: "아산시/신창면",
+    title: "피닉스 찰칵!",
+    content: "순천향 상징 피닉스도 4년 동안 민주 지켜줘서 고마웡~",
+  },
+  {
+    src: "/img/zolup/09.jpg",
+    date: "2024.02.21",
+    location: "아산시/신창면",
+    title: "몰래찍기",
+    content: "단체 졸업사진 찍으러 가서 둘이 몰래 찍기!",
+  },
+  {
+    src: "/img/zolup/10.jpg",
+    date: "2024.02.21",
+    location: "아산시/신창면",
+    title: "주잉님",
+    content: "약간 도비st",
+  },
+  {
+    src: "/img/zolup/11.jpg",
+    date: "2024.02.21",
+    location: "아산시/신창면",
+    title: "같이 찰칵!",
+    content: "부모님이 찍어주셔서 완전 긴장 ㅎㅎ..",
+  },
+  {
+    src: "/img/zolup/12.jpg",
+    date: "2024.02.21",
+    location: "아산시/신창면",
+    title: "울 아가 졸업해요",
+    content: "울 애기 이제 사회인 눈나다! 밥 사조라~!",
+  },
+];
