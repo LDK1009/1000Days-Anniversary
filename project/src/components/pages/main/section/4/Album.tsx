@@ -40,7 +40,6 @@ const Album = ({
 
   const chunkedAlbumData = chunk(albumData, 2);
 
-  console.log(chunkedAlbumData);
 
   const handleSlideChange = (swiper: SwiperType) => {
     setCurrentIndex(swiper.realIndex);
@@ -66,6 +65,7 @@ const Album = ({
           <DetailContainer variants={detailContainerVariants} initial="initial" animate="animate" exit="exit">
             <AlbumSwiper onSlideChange={handleSlideChange}>
               {chunkedAlbumData.map((items, index) => (
+                // 사진을 3개씩 묶어서 스와이퍼 아이템으로 만들기
                 <SwiperItem key={`${index} chunk`}>
                   <CloseIcon onClick={() => setIsOpen(false)} />
                   {items[0] && <AlbumItem itemData={items[0]} />}
@@ -131,6 +131,8 @@ const ConverImageLayer = styled(Stack)`
 
 const ConverImage = styled("img")`
   width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
 `;
 
 const AlbumName = styled(Typography)`
@@ -138,11 +140,13 @@ const AlbumName = styled(Typography)`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-15deg);
-  z-index: 100;
+  z-index: 10;
   color: ${({ theme }) => theme.palette.text.white};
   font-size: 24px;
   font-weight: 600;
   text-shadow: 4px 4px 16px rgba(232, 135, 159, 1);
+  width: 100%;
+  text-align: center;
 `;
 
 const DetailContainer = styled(motion(Stack))`
@@ -161,8 +165,8 @@ const DetailContainer = styled(motion(Stack))`
 const CloseIcon = styled(CloseRounded)`
   position: fixed;
   z-index: 100;
-  top: 16px;
-  right: 16px;
+  top: 8px;
+  right: 8px;
   color: ${({ theme }) => theme.palette.primary.dark};
 `;
 
@@ -170,8 +174,8 @@ const CurrentNumberContainer = styled(Stack)`
   ${mixinFlex("row", "center", "center")}
   position: fixed;
   z-index: 100;
-  bottom: 16px;
-  right: 16px;
+  bottom: 8px;
+  right: 8px;
   color: ${({ theme }) => theme.palette.primary.dark};
 `;
 

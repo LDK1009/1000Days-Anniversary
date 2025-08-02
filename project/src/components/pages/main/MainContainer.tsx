@@ -8,6 +8,7 @@ import Section3 from "./section/3/Section3";
 import Section4 from "./section/4/Section4";
 import { mixinHideScrollbar } from "@/styles/mixins";
 import TextConfetti from "@/components/common/TextConfetti";
+import Section5 from "./section/5/Section5";
 
 const MainContainer = () => {
   return (
@@ -29,6 +30,7 @@ const MainContainer = () => {
       <Section2 />
       <Section3 />
       <Section4 />
+      <Section5 />
     </Container>
   );
 };

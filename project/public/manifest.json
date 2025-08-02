@@ -1,7 +1,7 @@
 {
-  "name": "Uni-Q",
-  "short_name": "Uni-Q",
-  "description": "대학교 학과별 면접 질문 플랫폼",
+  "name": "MND1000",
+  "short_name": "MND1000",
+  "description": "민주와 동규의 1000일 기념 웹사이트",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone",

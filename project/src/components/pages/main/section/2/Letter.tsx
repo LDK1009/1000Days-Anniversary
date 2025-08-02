@@ -38,10 +38,6 @@ const Letter = () => {
     visible: { opacity: 1, y: 0 },
   };
 
-  function handleContainerEnter() {
-    console.log("안뇽");
-  }
-
   function viewComponent(viewComponent: "closeLetter" | "openLetter" | "letterPaper") {
     switch (viewComponent) {
       case "closeLetter":
@@ -74,7 +70,6 @@ const Letter = () => {
             animate="visible"
             transition={{ duration: 1 }}
             onClick={() => setViewVariant("closeLetter")}
-            onViewportEnter={handleContainerEnter}
           >
             {sentences.map((sentence, index) => (
               <React.Fragment key={index}>

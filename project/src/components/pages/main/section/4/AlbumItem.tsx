@@ -35,6 +35,8 @@ const ImageArea = styled(Stack)``;
 
 const ItemImage = styled("img")`
   width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
 `;
 
 const InfoArea = styled(Stack)`
